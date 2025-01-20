@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 PAGES = [
     {
         "seperator": False,
+        "show_all_applications": True,
         "items": [
             {
                 "title": _("Home page"),
@@ -15,6 +16,7 @@ PAGES = [
     {
         "title": _("Auth"),
         "separator": True,  # Top border
+        "show_all_applications": True,
         "items": [
             {
                 "title": _("Users"),

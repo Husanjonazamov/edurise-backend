@@ -16,7 +16,8 @@ APPS = [
     'core.apps.api',
     'core.apps.students',
     'core.apps.educenter',
-    
+    'core.apps.teachers',
+    'core.apps.users',
 ]
 
 if env.str("PROJECT_ENV") == "debug":
